@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.rain {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.raindrop {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    bottom: 100%;
+    width: 1px;
+    height: 50px;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh) rotate(180deg);
+    }
+}
+
+.raindrop:nth-child(1) {
+    left: 5%;
+    animation-duration: 3s; /* Ajuste para una caída más lenta */
+}
+
+.raindrop:nth-child(2) {
+    left: 15%;
+    animation-duration: 2.7s; /* Ajuste para una caída más lenta */
+}
+
+.raindrop:nth-child(3) {
+    left: 25%;
+    animation-duration: 3.3s; /* Ajuste para una caída más lenta */
+}
+
+.raindrop:nth-child(4) {
+    left: 35%;
+    animation-duration: 3.6s; /* Ajuste para una caída más lenta */
+}
+
+.raindrop:nth-child(5) {
+    left: 45%;
+    animation-duration: 2.85s; /* Ajuste para una caída más lenta */
+}
+
+.raindrop:nth-child(6) {
+    left: 55%;
+    animation-duration: 3.15s; /* Ajuste para una caída más lenta */
+}
+
+.raindrop:nth-child(7) {
+    left: 65%;
+    animation-duration: 3.45s; /* Ajuste para una caída más lenta */
+}
+
+.raindrop:nth-child(8) {
+    left: 75%;
+    animation-duration: 3s; /* Ajuste para una caída más lenta */
+}
+
+.raindrop:nth-child(9) {
+    left: 85%;
+    animation-duration: 3.3s; /* Ajuste para una caída más lenta */
+}
+
+.raindrop:nth-child(10) {
+    left: 95%;
+    animation-duration: 3.6s; /* Ajuste para una caída más lenta */
+}
